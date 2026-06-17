@@ -1,0 +1,15 @@
+{
+  "name": "hrkmtsmt",
+  "owner": {
+    "name": "hrkmtsmt"
+  },
+  "description": "",
+  "plugins": [
+    {
+      "name": "@hrkmtsmt/skills",
+      "source": "./",
+      "description": "",
+      "keywords": []
+    }
+  ]
+}

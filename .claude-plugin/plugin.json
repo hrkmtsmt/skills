@@ -1,0 +1,27 @@
+{
+  "name": "@hrkmtsmt/skills",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "hrkmtsmt"
+  },
+  "homepage": "https://github.com/hrkmtsmt/skills",
+  "repository": "https://github.com/hrkmtsmt/skills",
+  "license": "MIT",
+  "keywords": [],
+  "skills": [
+    "./skills/fundamental",
+    "./skills/coding-philosophy",
+    "./skills/escalation-policy",
+    "./skills/commit",
+    "./skills/create-markdown",
+    "./skills/create-test",
+    "./skills/naze-sore",
+    "./skills/create-specification",
+    "./skills/implement",
+    "./skills/review-artifact",
+    "./skills/create-pull-request",
+    "./skills/retrospective",
+    "./skills/execute"
+  ]
+}
