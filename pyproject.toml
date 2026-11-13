@@ -1,0 +1,26 @@
+[project]
+name = "hrkmtsmt-skills"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff==0.17.5",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = []
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "UP", "B", "SIM", "RUF"]
+# 行の長さは ruff format に任せる。CSS や正規表現の長い文字列は折り返せないため
+ignore = ["E501"]
+# 日本語の文字列で意図して使う全角記号
+allowed-confusables = ["？", "（", "）", "："]

@@ -1,0 +1,13 @@
+{
+  "name": "@hrkmtsmt/skills",
+  "private": true,
+  "packageManager": "pnpm@11.24.0",
+  "scripts": {
+    "lint:text": "textlint README.md \"plugins/**/*.md\"",
+    "lint:text:fix": "textlint --fix README.md \"plugins/**/*.md\""
+  },
+  "devDependencies": {
+    "textlint": "15.8.0",
+    "textlint-rule-preset-ja-technical-writing": "12.0.2"
+  }
+}
