@@ -4,5 +4,11 @@
     "name": "hrkmtsmt"
   },
   "description": "hrkmtsmt が自分用に作った Claude Code スキル集",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "coach",
+      "source": "./plugins/coach",
+      "description": "自分の思考のクセや弱点を見つけて、理解を伸ばすためのスキル集"
+    }
+  ]
 }
