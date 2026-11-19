@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: session-end-review
+expected_outcome: |
+  At the end of the session the response briefly lists the still-open notes jotted down in this
+  session (#2 JSON logging, #3 README usage example) and asks whether to pick one up now.
+  It does not list #1, which belongs to another project and an earlier session.
+context:
+  scaffold_script: place-files.sh

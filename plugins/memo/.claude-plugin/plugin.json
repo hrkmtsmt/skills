@@ -1,0 +1,6 @@
+{
+  "name": "memo",
+  "description": "会話の流れを切らずに、忘れそうなことを書き留めて後で拾うためのスキル集",
+  "version": "0.1.0",
+  "author": { "name": "hrkmtsmt" }
+}

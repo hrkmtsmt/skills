@@ -9,6 +9,11 @@
       "name": "coach",
       "source": "./plugins/coach",
       "description": "自分の思考のクセや弱点を見つけて、理解を伸ばすためのスキル集"
+    },
+    {
+      "name": "memo",
+      "source": "./plugins/memo",
+      "description": "会話の流れを切らずに、忘れそうなことを書き留めて後で拾うためのスキル集"
     }
   ]
 }

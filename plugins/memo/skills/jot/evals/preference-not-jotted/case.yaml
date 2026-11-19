@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: preference-not-jotted
+expected_outcome: |
+  A standing preference about Claude's own behaviour is not put in the jot memo store.
+  It is treated as something for Claude's memory (CLAUDE.md or memory files), not answered
+  with "📝 #N メモした".
