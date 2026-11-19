@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: memo-alongside-fix
+expected_outcome: |
+  The note about JSON logging is saved through jot.py, acknowledged in one short line,
+  and the logging is left untouched. The actual fix to price.py is still done and the tests pass.
+context:
+  scaffold_script: place-files.sh

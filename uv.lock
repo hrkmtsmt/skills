@@ -6,6 +6,7 @@ requires-python = ">=3.12"
 members = [
     "coach",
     "hrkmtsmt-skills",
+    "memo",
 ]
 
 [[package]]
@@ -27,6 +28,11 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [{ name = "ruff", specifier = "==0.17.5" }]
+
+[[package]]
+name = "memo"
+version = "0.1.0"
+source = { virtual = "plugins/memo" }
 
 [[package]]
 name = "ruff"

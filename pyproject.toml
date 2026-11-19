@@ -13,7 +13,7 @@ dev = [
 package = false
 
 [tool.uv.workspace]
-members = ["plugins/coach"]
+members = ["plugins/coach", "plugins/memo"]
 
 [tool.ruff]
 target-version = "py312"

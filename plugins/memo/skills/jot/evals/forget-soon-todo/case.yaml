@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: forget-soon-todo
+expected_outcome: |
+  A to-do that is not an idea (ask 田中さん about staging env vars by Friday) is saved through jot.py
+  and acknowledged in one short line. Nothing is done about the staging env vars now, and the
+  price.py fix is still done with tests passing.
+context:
+  scaffold_script: place-files.sh
